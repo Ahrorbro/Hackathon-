@@ -1,0 +1,20 @@
+# Wait App — Cursor rules
+
+This project is configured for the **Wait App** (Expo/React Native MVP). Use only the active Cursor config.
+
+## Skills
+Use skills in `.cursor/skills/` only: wait-app-sow, tdd-workflow, security-review, frontend-patterns, coding-standards, api-design, backend-patterns. See `.cursor/README.md`.
+
+## Rules
+Follow rules in `.cursor/rules/` (TypeScript + common). Ignore archived rules in `.cursor/rules-archive/` and `.cursor/skills-archive/`.
+
+## Stack
+- App: `wait-app/` — Expo (React Native), TypeScript.
+- Design: `design.pen` — use Pencil MCP to open/screenshot; theme in `wait-app/src/theme.ts`.
+- Scope: `docs/Wait-App-SoW.md`; modules and AC in `docs/Wait-App-SoW-Subagent-Breakdown.md`.
+- Orchestration: PM + tech lead (see `docs/Wait-App-Orchestration.md`); tech lead runs planner → tdd-guide → code-reviewer per module.
+
+## When implementing
+- TDD: tests first, then code (tdd-workflow skill).
+- Auth/sensitive code: apply security-review skill.
+- UI: match Lunaris/design.pen; use theme tokens from `wait-app/src/theme.ts`.

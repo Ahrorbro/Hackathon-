@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node:*)",
+      "Bash(mkdir -p /Users/a1234/Projects/hackathon-app)",
+      "Read(//Users/a1234/Projects/**)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm)",
+      "Bash(cd:*)"
+    ]
+  }
+}

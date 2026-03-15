@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Wait App",
+    "slug": "wait-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "backgroundColor": "#D3543C",
+    "platforms": ["ios", "android"],
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#D3543C"
+    },
+    "ios": {
+      "bundleIdentifier": "com.waitapp.mobile",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Wait App uses your location to show venues nearby and validate wait time submissions."
+      }
+    },
+    "android": {
+      "package": "com.waitapp.mobile",
+      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"],
+      "adaptiveIcon": {
+        "backgroundColor": "#0f0f12",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
